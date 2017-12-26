@@ -1,0 +1,201 @@
+/* navbar style */
+
+body {}
+
+.navbar .navbar-brand {
+    color: rgb(238, 56, 56) !important;
+    font-weight: normal;
+    z-index: 2;
+}
+
+.navbar .navbar-nav .active>.nav-link {
+    border-bottom: 2px solid rgb(131, 223, 228);
+    color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(247, 58, 58) !important;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.navbar-nav {
+    font-size: 16px;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    padding-bottom: 3px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(31, 204, 247) !important;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .carousel-inner p {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    min-width: 500px;
+    line-height: 2;
+}
+
+.slider .carousel-inner p span {
+    color: rgb(236, 224, 49);
+}
+
+.slider .carousel-inner .overlay {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.35);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* End NAV STYLE  */
+
+
+/* START HEADER STYLE */
+
+.slider .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one {
+    background-image: url('../images/header01.jpg');
+}
+
+.slider .carousel-two {
+    background-image: url('../images/header02.jpg');
+}
+
+.slider .carousel-three {
+    background-image: url('../images/header03.jpg');
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5% !important;
+}
+
+
+/* End header style */
+
+
+/* start about style */
+
+.about,
+.services,
+.portifolio,
+.team {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.about h3,
+.services h3 {
+    margin: 0 10px 50px;
+    font-weight: normal;
+}
+
+.special-heading {
+    position: relative;
+}
+
+.special-heading::after {
+    content: "";
+    width: 100px;
+    top: 35px;
+    left: 1px;
+    position: absolute;
+    border-bottom: 1.5px solid red;
+}
+
+.portifolio {}
+
+.services .row {
+    margin-bottom: 30px;
+}
+
+.services i {
+    color: #95d5e3;
+    float: left;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+
+.services .item h4 {
+    margin-top: 25px;
+    color: #909e9d;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.portifolio {
+    height: 1500px;
+}
+
+.portifolio hr {
+    margin-bottom: 35px;
+    margin-top: 0px;
+    border: 1px solid #c0d3d2;
+}
+.team .col
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.team .col p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.team .col img {
+    border-radius: 50%;
+    margin-bottom: 35px;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.team .col .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 204, 247, 0.3);
+    color: antiquewhite;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    display: none;
+    
+}
+
+.team .col:hover .overlay
+{
+    display: block;
+}
