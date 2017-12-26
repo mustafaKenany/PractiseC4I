@@ -9,15 +9,15 @@ $(function() {
             scrollTop: $('#'+$(this).data('value')).offset().top
         },1500);
     });
-    var winH = $(window).height();
-    var UpperNav = $('.navbar').innerHeight();
+//     var winH = $(window).height();
+//     var UpperNav = $('.navbar').innerHeight();
     
-   $('.carousel-item').height(winH);   
+//    $('.carousel-item').height(winH);   
    
 
-   $(window).resize(function () {
-    $('.carousel-item').height(winH);   
-   });
+//    $(window).resize(function () {
+//     $('.carousel-item').height(winH);   
+//    });
 
    $('.navbar-brand').click(function () {
 
@@ -26,4 +26,8 @@ $(function() {
        },1500);
    
    });
+
+   $('.carousel').carousel({
+    interval: 100000
+  })
 });
