@@ -9,15 +9,6 @@ $(function() {
             scrollTop: $('#'+$(this).data('value')).offset().top
         },1500);
     });
-//     var winH = $(window).height();
-//     var UpperNav = $('.navbar').innerHeight();
-    
-//    $('.carousel-item').height(winH);   
-   
-
-//    $(window).resize(function () {
-//     $('.carousel-item').height(winH);   
-//    });
 
    $('.navbar-brand').click(function () {
 
@@ -30,4 +21,17 @@ $(function() {
    $('.carousel').carousel({
     interval: 100000
   })
+
+  //Statup mixitup plugin
+  var mixer = mixitup('#gallery');
+
+  var mixer = mixitup(containerEl, {
+    selectors: {
+        target: '.blog-item'
+    },
+    animation: {
+        duration: 5000
+    }
+});
+
 });

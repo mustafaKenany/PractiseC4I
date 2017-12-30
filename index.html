@@ -177,13 +177,16 @@
                             <a class="page-link" href="#" tabindex="-1">Previous</a>
                         </li>
                         <li class="page-item active">
-                            <a class="page-link" href="#">1</a>
+                            <a class="page-link filter" href="#" data-filter="one">1</a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link" href="#">2</a>
+                            <a class="page-link filter" href="#" data-filter="two">2</a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link" href="#">3</a>
+                            <a class="page-link filter" href="#" data-filter="three">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link filter" href="#" data-filter="all">All</a>
                         </li>
                         <li class="page-item">
                             <a class="page-link" href="#">Next</a>
@@ -191,26 +194,50 @@
                     </ul>
                 </nav>
             </div>
-            <div class="gallery">
+            <div class="gallery" id="gallery">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm mix one">
+                        <div class="overlay">
+                            <button class="btn btn-outline-danger">View more</button>
+                            <i class="fa fa-heart fa-lg"></i>
+                        </div>
                         <img src="images/projects01.png" alt="Image">
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm mix one">
+                        <div class="overlay">
+                            <button class="btn btn-outline-danger">View more</button>
+                            <i class="fa fa-heart fa-lg"></i>
+                        </div>
                         <img src="images/projects02.png" alt="Image">
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm mix two">
+                        <div class="overlay">
+                            <button class="btn btn-outline-danger">View more</button>
+                            <i class="fa fa-heart fa-lg"></i>
+                        </div>
                         <img src="images/projects03.png" alt="Image">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm mix two">
+                        <div class="overlay">
+                            <button class="btn btn-outline-danger">View more</button>
+                            <i class="fa fa-heart fa-lg"></i>
+                        </div>
                         <img src="images/projects04.png" alt="Image">
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm mix three">
+                        <div class="overlay">
+                            <button class="btn btn-outline-danger">View more</button>
+                            <i class="fa fa-heart fa-lg"></i>
+                        </div>
                         <img src="images/projects05.png" alt="Image">
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm mix three">
+                        <div class="overlay">
+                            <button class="btn btn-outline-danger">View more</button>
+                            <i class="fa fa-heart fa-lg"></i>
+                        </div>
                         <img src="images/projects06.png" alt="Image">
                     </div>
                 </div>
@@ -293,6 +320,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/plugin.js"></script>
 </body>
 

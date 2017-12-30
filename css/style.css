@@ -164,13 +164,43 @@ body {}
     border: 1px solid #c0d3d2;
 }
 
+.projects .col-sm
+{
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
 .projects .control-projects
 {
     margin-top: 40px;
 }
-.projects .col-sm
+
+.projects .gallery .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 204, 247, 0.3);
+    color: black;
+    text-align: center;
+    line-height: 25;
+    border-radius: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+}
+.projects .gallery i
 {
-    margin-top: 50px;
+    color: red;
+    bottom: 30px;
+    right: 20px;
+    position: absolute;
+    display: none;
 }
 .projects .gallery img
 {
@@ -178,6 +208,12 @@ body {}
     border-radius: 5%;
     width: 100%;
     border: 2px solid;  
+}
+
+.projects .gallery .col-sm:hover .overlay,
+.projects .gallery .col-sm:hover i
+{
+    display: block;
 }
 
 .team .col {
