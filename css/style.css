@@ -138,8 +138,6 @@ body {}
     border-bottom: 1.5px solid red;
 }
 
-
-
 .services .row {
     margin-bottom: 30px;
 }
@@ -164,16 +162,15 @@ body {}
     border: 1px solid #c0d3d2;
 }
 
-.projects .col-sm
-{
+.projects .col-sm {
     margin-top: 50px;
     padding-left: 0;
     padding-right: 0%;
     margin-right: 25px;
     margin-left: 25px;
 }
-.projects .control-projects
-{
+
+.projects .control-projects {
     margin-top: 40px;
 }
 
@@ -194,25 +191,24 @@ body {}
     font-weight: 500;
     display: none;
 }
-.projects .gallery i
-{
+
+.projects .gallery i {
     color: red;
     bottom: 30px;
     right: 20px;
     position: absolute;
     display: none;
 }
-.projects .gallery img
-{
+
+.projects .gallery img {
     /* border: 1px solid black; */
     border-radius: 5%;
     width: 100%;
-    border: 2px solid;  
+    border: 2px solid;
 }
 
 .projects .gallery .col-sm:hover .overlay,
-.projects .gallery .col-sm:hover i
-{
+.projects .gallery .col-sm:hover i {
     display: block;
 }
 
@@ -221,7 +217,6 @@ body {}
     padding-right: 0;
     margin-right: 1%;
     margin-left: 1%;
-  
 }
 
 .team .col p {
@@ -235,7 +230,7 @@ body {}
     margin-bottom: 35px;
     border: 2px solid #95d5e3;
     width: 100%;
-   height: 100%;
+    height: 100%;
 }
 
 .team .col .overlay {
@@ -271,4 +266,33 @@ body {}
     font-weight: 350;
     color: whitesmoke;
     width: 100%;
+}
+
+.contact {
+    height: 700px;
+}
+
+.footer {
+    background-color: #323232;
+    color: rgb(131, 223, 228);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer .col .about-us i
+{
+    margin: 5px;
+}
+.footer .col .tags button {
+    margin-bottom: 10px;
+}
+
+.footer .col .categories ul
+{
+    list-style-type: none;
+}
+.footer .col .categories li
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(236, 224, 49);
+    padding: 5px;
 }
