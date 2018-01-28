@@ -22,16 +22,12 @@ $(function() {
     interval: 100000
   })
 
-  //Statup mixitup plugin
-  var mixer = mixitup('#gallery');
+  //Statup nicescroll plugin
+  $("body").niceScroll({
+    cursorcolor:"rgb(70,70,70)",
+    cursorwidth:"5px"
+  });
 
-  var mixer = mixitup(containerEl, {
-    selectors: {
-        target: '.blog-item'
-    },
-    animation: {
-        duration: 5000
-    }
-});
+  
 
 });

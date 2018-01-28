@@ -212,6 +212,7 @@ body {}
     display: block;
 }
 
+
 .team .col {
     padding-left: 0;
     padding-right: 0;
@@ -269,7 +270,9 @@ body {}
 }
 
 .contact {
-    height: 700px;
+    color: rgb(70, 70, 70);
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .footer {
